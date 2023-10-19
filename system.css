@@ -1,0 +1,155 @@
+@font-face{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    src: url('fonts/Helvetica-Bold.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Helvetica';
+    font-weight: 300;
+    src: url('fonts/helvetica-light-587ebe5a59211.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    src: url('fonts/PlayfairDisplay-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    src: url('fonts/PlayfairDisplay-Regular.woff2');
+}
+
+:root {
+--h1: bold 48px 'Playfair Display';
+
+--h2: bold 32px 'Helvetica';
+
+--h3: regular 24px 'Playfair Display';
+    
+--h4primary: 24px 'Playfair Display'; 
+
+--h4secondary: 24px 'Helvetica';
+
+--paragraph: light 18px 'Helvetica';
+
+--sub: 30px 'Helvetica light';
+
+--header: #1E1E1E;
+
+--footer: #FFF;
+
+--hover: #04419B;
+}
+
+h1 {
+    font: var(--h1);
+}
+
+h2 {
+    font: var(--h2);
+}
+
+h3 {
+    font: var(--h3);
+}
+
+h4 {
+    font: var(--h4primary);
+}
+
+p {
+    font: var(--paragraph);
+}
+
+.sub {
+    font: var(--sub);
+}
+
+header {
+    background-color: var(--header);
+}
+
+footer {
+    display: flex;
+    padding: 64px 258px 64px 64px;
+    gap: 58.25px;
+    flex-direction: row;
+    .colonne1 h3 {
+        font-family: 'Helvetica';
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .colonne2 h3 {
+        font-family: 'Helvetica';
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .colonne3 h3 {
+        font-family: 'Helvetica';
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .colonne4 h3 {
+        font-family: 'Helvetica';
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
+
+footer nav {
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: 400;
+    display:flex;
+    flex-direction:raw;
+    gap: 58.25px;
+    grid-template-rows:16px,16px,16px,16px,16px,16px,16px,16px,16px,16px,16px,16px;
+}
+footer a {
+    text-decoration: none;
+    color:black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+  
+footer a:active {
+    text-decoration: underline;
+ }
+  
+footer nav div {
+    display:flex;
+    flex-direction: column;
+}
+
+.main-logo{
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* BOUTTONS */
+.main-cta {
+    padding: 10px 16px;
+    margin-right: 16px;
+    background-color: var(--hover);
+    border-radius: 8px;
+    color:white;
+    text-decoration: none;
+    font-family:Helvetica;
+    font-weight:700;
+    font-size:18px;
+    line-height:150%;
+}
+.transparent-cta {
+    padding:10px 16px;
+    border-radius:8px;
+    color:white;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight:400px;
+    border: 2px solid var(--footer)
+}

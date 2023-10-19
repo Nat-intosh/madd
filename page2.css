@@ -1,0 +1,113 @@
+:root {
+    --h1: bold 48px 'Playfair Display';
+    
+    --h2: bold 32px 'Helvetica';
+    
+    --h3: regular 24px 'Playfair Display';
+        
+    --h4primary: 24px 'Playfair Display'; 
+    
+    --h4secondary: 24px 'Helvetica';
+    
+    --paragraph: light 18px 'Helvetica';
+    
+    --sub: 30px 'Helvetica light';
+    
+    --header: #1E1E1E;
+    
+    --footer: #FFF;
+    
+    --hover: #04419B;
+    }
+
+
+body{
+    background-color: var(--header);
+}
+.titre.accueil{
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700px;
+    margin-top: -220px;
+    margin-left: 70px;
+    color: var(--footer);
+}
+
+.info.h1{
+    font-family: Helvetica Light;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -30px;
+    margin-left: 70px;
+    color: var(--footer);
+}
+.image.accueil{ 
+    width: 100%;
+    height: 738px;
+    flex-shrink: 0;
+
+}
+.introduction{
+    width: 540px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 172px;
+    margin-top: 150px;
+    color: var(--footer);
+
+}
+.citation{
+    color: var(--footer);
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 175px;
+    background: var(--footer);
+    border: 0px;
+    border-radius: 20px;
+    width: 750px;
+    color: #000;
+    margin-top: 30px;
+    padding: 100px;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+.citation.auteur{
+    color: #000;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 175px;
+    margin-top: -180px;
+}
+header {
+    background-color: #202020;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+}
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+  header nav ul li a {
+    color: white;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="system.css">
+    <link rel="stylesheet" href="style.css">
+    <title>MADD Bordeaux</title>
+</head>
+<body>
+    <main>
+        <div w3-include-html="header.html"></div>
+        <section>
+            <div>
+                <ul>
+                    <li>
+                        <div class="head-slider">
+                            <img src="http://placekitten.com/1440/738" alt="">
+                                <div class="head-text">
+                                    <h2>Exposition Chroniques du vivant</h2>
+                                    <p class="sub">Du 10 septembre au 24 décembre 2023</p>
+                                    <a href="/resa/chroniques" class="main-cta">
+                                        Réserver</a>
+                                    <a href="/expo/chroniques" class="transparent-cta">
+                                        En savoir plus</a>
+                                </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="info">
+            <div>
+                <h3>Horaires d'ouvertures</h3>
+                <ul>
+                    <li>Lundi : fermé</li>
+                    <li>Du mardi au dimanche : 11h - 18h</li>
+                    <li>Fermé les jours feriés</li>
+                </ul>
+            </div>
+            <div>
+            <h3>Tarification</h3>
+                <ul>
+                    <li>Tarif plein : 8€</li>
+                    <li>Tarif réduit (étudiant, seniors) : 4,5€</li>
+                    <li> 
+                        <a href="http://google.com">Réserver</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+            <h3>Adresse</h3>
+            <ul>
+                <li>Muse des Arts Décoratifs et du Design</li>
+                <li>39 Rue Bouffard, 33000 Bordeaux</li>
+                <li> 
+                    <a href="https://google.com">S'y rendre</a>
+                </li>
+            </ul>
+        </div>
+        <section>
+            <h2>Nos expositions</h2>
+            <ul>
+                <li class="expo-card">
+                    <img src="http://placekitten.com/200/300" alt="chat">
+                    <h3>Chroniques du vivant</h3>
+                    <p>du 16 septembre 2023 au 24 décembre 2023</p>
+                    <a href="google.com">En savoir plus</a>
+                </li>
+                <li class="expo-card">
+                    <img src="http://placekitten.com/200/300" alt="chat">
+                    <h3>SpeakBlue</h3>
+                    <p>du 2 janvier 2024 au 5 février 2024</p>
+                    <a href="google.com">En savoir plus</a>
+                </li>
+                <li class="expo-card">
+                    <img src="http://placekitten.com/200/300" alt="chat">
+                    <h3>Chroniques du vivant</h3>
+                    <p>du 16 septembre 2023 au 24 décembre 2023</p>
+                    <a href="google.com">En savoir plus</a>
+                </li>
+                <li class="expo-card">
+                    <img src="http://placekitten.com/200/300" alt="chat">
+                    <h3>SpeakBlue</h3>
+                    <p>du 2 janvier 2024 au 5 février 2024</p>
+                    <a href="google.com">En savoir plus</a>
+                    <br>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div class="boitemusee">
+                <h2 class="titreinfomusee">Musée d'art et du design de Bordeaux</h2>
+                <p class="infomusee"> Le musée est installé dans un hôtel particulier, l'hôtel de Lalande, construit à Bordeaux entre 1775 et 1779 pour le conseiller au parlement Pierre de Raymond de Lalande. Cette maison va cahnger de statut au fil du temps. En 1880, elle est...</p>
+                <a href="MADD.html">Lire la suite</a>
+                <img src="http://placekitten.com/300/300" alt="chat">
+            </div>
+        </section>
+        <section>
+            <h2>Prochains évènements</h2>
+            <article>
+                <h3>Rencontre avec Claire Malrieux et Sara Dufour à l’occasion de l’installation de l’exposition Speak Blue</h3>
+                <p>Placée au cœur de l’hôtel particulier, SpeakBlue est une œuvre vocale, un outil éditorial et performatif. Cette première version bêta de l’œuvre sera nourrie et développée pendant deux ans de collaboration et de co-production entre les artistes et le madd-bordeaux.</p>
+                <p>le 02/01/2024 à 18h00 au musée</p>
+                <a href="/reservation">réservation</a>
+                <img src="/assets/image/Rectangle_22.png">
+            </article>
+            <article>
+                <h3>Retour sur la conception de la scénographie immersive de l'exposition Nanda Vigo, l'espace intérieur</h3>
+                <p>Rencontre avec Bérengère Bussioz, designer et scénographe de l'exposition et Serge Damon, concepteur lumière. Ils raconteront comment ils ont abordé la scénographie de cette exposition dédiée à cette artiste, afin de transcrire au mieux le propos scientifique aux visiteurs et les difficultés rencontrées.</p>
+                <p>le 04/03/2024 à 19h00 au musée</p>
+                <a href="/reservation">réservation</a>
+            </article>
+            <img src="/assets/image/Rectangle_23.png">
+            <a href="/autre-evenements" class="voir-plus">Voir les autres évènements</a>
+        </section>      
+        <!-- <object data="header.html"></object> -->
+        <div w3-include-html="footer.html"></div>
+    </main>
+</body>
+<script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /* Loop through a collection of all HTML elements: */
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /* Make an HTTP request using the attribute value as the file name: */
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /* Remove the attribute, and call this function once more: */
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /* Exit the function: */
+          return;
+        }
+      }
+    }
+    window.addEventListener("load", (event) => {
+  includeHTML()
+});
+
+    </script>
+</html>
+
