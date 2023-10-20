@@ -6,6 +6,7 @@
 @font-face{
     font-family: 'Helvetica';
     font-weight: 300;
+    font-size: 16px;
     src: url('fonts/helvetica-light-587ebe5a59211.woff2') format('woff2');
 }
 
@@ -31,7 +32,7 @@
 
 --h4secondary: 24px 'Helvetica';
 
---paragraph: light 18px 'Helvetica';
+--paragraph: light 30px 'Helvetica';
 
 --sub: 30px 'Helvetica light';
 
@@ -177,13 +178,13 @@ footer a secondary-cta {
 
 .white-cta {
     padding: 10px 16px;
-    margin-right: 16px;
+    margin-left: 64px;
     background-color: white ;
     border-radius: 8px;
     color:rgb(0, 0, 0);
     text-decoration: none;
     font-family:Helvetica;
-    font-weight:700;
+    font-weight:500;
     font-size:18px;
     line-height:150%;
 }
