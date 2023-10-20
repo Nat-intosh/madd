@@ -154,6 +154,14 @@ footer a secondary-cta {
     font-weight:700;
     font-size:18px;
     line-height:150%;
+    height: 200px;
+    width: 200px;
+    background-color: #04419B;
+    transition: background-color 0.2s linear;
+}
+.main-cta:hover{
+        background-color: rgb(8, 8, 8)
+    
 }
 .transparent-cta {
     padding:10px 16px;
@@ -187,4 +195,5 @@ footer a secondary-cta {
     font-weight:500;
     font-size:18px;
     line-height:150%;
+    letter-spacing: normal;
 }

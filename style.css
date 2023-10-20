@@ -60,12 +60,14 @@ body {
 
 /* EXPOSITION ICI*/
 .titre{
-    font-family: Helvetica Light;
+    font-family: Helvetica;
     color: #ffffff;
-    padding-left: 72px;
+    padding-left: 64px;
     padding-bottom: 64px;
+    font-size: 32px;
     background-color: #1E1E1E;
     margin-top: 128px;
+    font-weight: 700;
 }
 .expo-cards {
     display: flex;
@@ -76,21 +78,48 @@ body {
     margin-left: 64px;
 }
 .expo-card {
+    display:flex;
     margin-right: 32px;
     margin-bottom: 128px;
+    gap:16px;
+    flex-direction: column;
 }
+.expo-card h3 {
+    font-family: Playfair Display;
+    padding-top: 16px;
+    padding-bottom:16px;
+    font-weight: 700;
+}
+
+.expo-card p {
+    padding-bottom: 32px;
+    font-size: 16px;
+}
+
 .button {
     color: #ffffff;
     text-align: justify;
     font-family: Helvetica;
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-left: 0px;
     margin-top: -130px;
 }
-
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;   /sera inutile a terme/
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--header);
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--hover);
+    border-radius:8px;
+}
 /* FOOTER ICI */
 .logo {
     color: #000;
@@ -137,6 +166,11 @@ body {
 .info li a {
     line-height: 5;
     margin-top:16px;
+}
+
+.last-news{
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
 
@@ -219,6 +253,7 @@ header a:active {
 
 .txtmusee{
     flex-direction: column;
+    letter-spacing: normal;
 }
 
 .musee-presentation img{
@@ -227,11 +262,12 @@ header a:active {
     min-width:300px;
     display:flex;
     flex:1;
+    object-fit: cover;
 }
 
 .boitemusee h2 {
     width: 381px;
-    height: 230px;
+
     color: #000;
     font-family: Playfair Display;
     font-size: 64px;
@@ -242,7 +278,6 @@ header a:active {
 
 .boitemusee p{
     width: 314px;
-    height: 151px;
     flex-shrink: 0;
     text-overflow: ellipsis;
     font-family: Helvetica Light;
@@ -250,7 +285,8 @@ header a:active {
     font-style: normal;
     font-weight: 400;
     line-height: 136.8%;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
+    padding-right:32px;
 }
 
 /*Fin encart presentation du musee*/
@@ -277,6 +313,12 @@ header a:active {
     flex-direction: column;
     gap:32px;
 }
+
+.ev-text p {
+    font-family: Helvetica;
+    font-weight: 500;
+}
+
 .ev div{
     flex:1;
 }
@@ -329,7 +371,6 @@ header a:active {
 
 .evenements p {
     color: #000;
-    font-family: Helvetica Light;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -337,3 +378,16 @@ header a:active {
 }
 
 /*Fin évênements*/
+
+
+.expo-card p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.txtmusee p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+}
