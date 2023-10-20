@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500&display=swap');
+
+body{
+    background-color: #1E1E1E;
+}
+.titre.accueil{
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700px;
+    margin-top: -220px;
+    margin-left: -84px;
+    color: #ffffff;
+}
+@font-face {
+    font-family: Playfair Display;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.woff2);
+    font-weight: 600;
+}
+.info.h1{
+    font-family: Helvetica Light;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -25px;
+    margin-left: 70px;
+    color: #ffffff;
+}
+.image.accueil{ 
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    
+}
+.introduction{
+    width: 540px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 172px;
+    margin-top: 200px;
+    color: #ffffff;
+   
+}
+.citation{
+    color: #ffffff;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 175px;
+
+    background: #ffffff;
+    border: 0px;
+    border-radius: 20px;
+    width: 750px;
+    color: #000;
+    margin-top: 30px;
+    padding: 80px;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    
+}
+.citation.auteur{
+    color: #000;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 175px;
+    margin-top: -130px;
+}
+header {
+    background-color: #202020;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+}
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+  header nav ul li a {
+    color: white;
+}
+.paragraphe p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Helvetica;
+    line-height: 30px;
+}
+.content .content-text p {
+    margin-bottom: 60px;
+    margin-top: -5px;
+    
+  }
+.content .content-text .big-text {
+    font-weight: bold;
+    font-size: 30px;
+    
+  }
+  
+.content {
+    display: flex;
+    gap: 125px;
+    margin-top: 125px;
+    margin-left: 175px;
+  }
+  
+.content .content-text{
+    flex: 45%;
+    
+}
+ .content-images .image1{
+    margin-bottom: 195px;
+}
+.content-images .image2{
+    flex: 45%;
+}
+.content .content-text2 p{
+    margin-bottom: 97px;
+    margin-top: -5px;
+
+}
+.content .big-text{
+    font-weight: bold;
+    font-size: 30px;
+    
+  }
+
+.titre{
+    font-family: Helvetica Light;
+    color: #ffffff;
+    padding-left: 153px;
+    background-color: #1E1E1E;
+}
+  .carousel-items {
+    display: flex;
+    color: #ffffff;
+    font-family: Helvetica Light;
+    overflow-x: scroll;
+    padding: 10px;
+}
+.carousel-item {
+    margin-left: 175px;
+}
+.button {
+    color: #ffffff;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 0px;
+    margin-top: -130px;
+}

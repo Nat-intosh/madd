@@ -25,7 +25,7 @@
 
 --h2: bold 32px 'Helvetica';
 
---h3: regular 24px 'Playfair Display';
+--h3: normal 24px 'Playfair Display';
     
 --h4primary: 24px 'Playfair Display'; 
 
@@ -70,31 +70,17 @@ header {
     background-color: var(--header);
 }
 
+
+
+
+
+
+/* FOOTER ICI */
+
 footer {
-    display: flex;
-    padding: 64px 258px 64px 64px;
-    gap: 58.25px;
-    flex-direction: row;
-    .colonne1 h3 {
-        font-family: 'Helvetica';
-        font-size: 22px;
-        font-weight: 700;
-    }
-    .colonne2 h3 {
-        font-family: 'Helvetica';
-        font-size: 22px;
-        font-weight: 700;
-    }
-    .colonne3 h3 {
-        font-family: 'Helvetica';
-        font-size: 22px;
-        font-weight: 700;
-    }
-    .colonne4 h3 {
-        font-family: 'Helvetica';
-        font-size: 22px;
-        font-weight: 700;
-    }
+    margin-top:64px;
+    padding: 64px 64px 64px 64px;
+    background-color: white;
 }
 
 footer nav {
@@ -102,26 +88,50 @@ footer nav {
     font-size: 18px;
     font-weight: 400;
     display:flex;
-    flex-direction:raw;
-    gap: 58.25px;
-    grid-template-rows:16px,16px,16px,16px,16px,16px,16px,16px,16px,16px,16px,16px;
+    justify-content:space-between;
+    gap:64px;
+    flex-wrap: wrap;
 }
+
+footer nav div {
+    flex:1;
+    min-width:150px;
+}
+
+.colonne0{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+footer h3 {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom:32px;
+}
+
 footer a {
     text-decoration: none;
     color:black;
 }
 
+footer li {
+    text-decoration: none;
+    color:black;
+    margin-bottom:16px;
+}
 footer a:hover {
     text-decoration: underline;
 }
   
 footer a:active {
     text-decoration: underline;
- }
-  
-footer nav div {
-    display:flex;
+}
+
+footer a secondary-cta {
     flex-direction: column;
+    padding-top: 64px;
 }
 
 .main-logo{
@@ -129,8 +139,8 @@ footer nav div {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
+
 /* BOUTTONS */
 .main-cta {
     padding: 10px 16px;
@@ -152,4 +162,28 @@ footer nav div {
     font-family: Helvetica;
     font-weight:400px;
     border: 2px solid var(--footer)
+}
+
+.secondary-cta {
+    padding: 10px 16px;
+    border-radius: 8px;
+    color:black;
+    text-decoration: none;
+    font-weight:400;
+    line-height: 150%;
+    border: 2px solid black;
+    font-family: Helvetica;
+}
+
+.white-cta {
+    padding: 10px 16px;
+    margin-right: 16px;
+    background-color: white ;
+    border-radius: 8px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:Helvetica;
+    font-weight:700;
+    font-size:18px;
+    line-height:150%;
 }
